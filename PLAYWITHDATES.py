@@ -22,38 +22,43 @@ Example
 
 import re
 import calendar
-l=[]
-res = ''
-res_1 = []
-res_2 = ''
-res_3 = ''
-result = []
-size = int(input())
-input_list = []
-for i in range(size):
-    temp = input()
-    input_list.append(temp)
-for i in input_list:
-    l=i.split()
-    res_1 = re.findall(r"\d+", l[0])          #result date
-    res = res_1[0]
-    if len(res) == 1:
-        res = '0' + res
-    l[1] = l[1].lower()
-    l[1] = l[1].capitalize()
-    if (l[1] == 'Jan' or l[1] == 'Feb' or l[1] == 'Mar' or l[1] == 'Apr' or l[1] == 'May'\
+def check(size, input_list):
+    l=[]
+    res = ''
+    res_1 = []
+    res_2 = ''
+    res_3 = ''
+    result = []
+    for i in input_list:
+        l=i.split()
+        res_1 = re.findall(r"\d+", l[0])          #result date
+        res = res_1[0]
+        if len(res) == 1:
+            res = '0' + res                       #result month
+        l[1] = l[1].lower()
+        l[1] = l[1].capitalize()
+        if (l[1] == 'Jan' or l[1] == 'Feb' or l[1] == 'Mar' or l[1] == 'Apr' or l[1] == 'May'\
            or l[1] == 'Jun' or l[1] == 'Jul' or l[1] == 'Aug' or l[1] == 'Sep'\
            or l[1] == 'Oct' or l[1] == 'Nov' or l[1] == 'Dec'):
-        r = {month: index for index, month in enumerate(calendar.month_abbr) if month}
-        for key,value in r.items():
-            if key == l[1]:
-                res_2 = str(r[key])
-        if len(res_2) == 1:
-            res_2 = '0' + res_2
-    else:
-        print("WRONG INPUT")
-    res_3 = l[2]
-    result.append(res_3+'-'+res_2+'-'+res)
-    l.clear()
-print(result)
+            r = {month: index for index, month in enumerate(calendar.month_abbr) if month}
+            for key,value in r.items():
+                if key == l[1]:
+                    res_2 = str(r[key])
+            if len(res_2) == 1:
+                res_2 = '0' + res_2
+        else:
+            print("WRONG INPUT")
+        res_3 = l[2]                             #result year
+        result.append(res_3+'-'+res_2+'-'+res)   #final result
+        l.clear()
+    print(result)
+
+if __name__ == '__main__':
+    size = int(input())
+    input_list = []
+    for i in range(size):
+       temp = input()
+       input_list.append(temp)
+    check(size, input_list)
+    
     
