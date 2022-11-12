@@ -1,0 +1,15 @@
+2022-11-12 12:25:46,531.531 root - WARNING - Champions League Round of 16 Draw Starting .....
+2022-11-12 12:25:46,532.532 root - WARNING - CHAMPIONS LEAGUE POT 1 : {'Napoli': 'Italy', 'Porto': 'Portugal', 'Bayern Munich': 'Germany', 'Tottenham Hotspurs': 'English', 'Chelsea': 'English', 'Manchester City': 'English', 'Real Madrid': 'Spain', 'Benefica': 'Portugal'}
+2022-11-12 12:25:46,534.534 root - WARNING - CHAMPIONS LEAGUE POT 2 : {'Liverpool': 'English', 'Club Brugge': 'Netherland', 'Inter Milan': 'Italy', 'Eintracht Frankfurt': 'Germany', 'AC Milan': 'Italy', 'RB Leipzig': 'Germany', 'Borussia Dortmund': 'Germany', 'Paris Saint Germain': 'France'}
+2022-11-12 12:25:46,534.534 root - WARNING - PLEASE WAIT .....
+2022-11-12 12:25:48,547.547 root - WARNING - 
+
+2022-11-12 12:25:48,547.547 root - WARNING - ----> CHAMPIONS LEAGUE DRAW LOADING .....
+2022-11-12 12:25:50,555.555 root - WARNING - DRAW 1 --> 'Napoli' ['Italy'] VS 'Paris Saint Germain' ['France']
+2022-11-12 12:25:52,565.565 root - WARNING - DRAW 2 --> 'Porto' ['Portugal'] VS 'AC Milan' ['Italy']
+2022-11-12 12:25:54,589.589 root - WARNING - DRAW 3 --> 'Bayern Munich' ['Germany'] VS 'Club Brugge' ['Netherland']
+2022-11-12 12:25:56,600.600 root - WARNING - DRAW 4 --> 'Tottenham Hotspurs' ['English'] VS 'RB Leipzig' ['Germany']
+2022-11-12 12:25:58,612.612 root - WARNING - DRAW 5 --> 'Chelsea' ['English'] VS 'Eintracht Frankfurt' ['Germany']
+2022-11-12 12:26:00,627.627 root - WARNING - DRAW 6 --> 'Manchester City' ['English'] VS 'Inter Milan' ['Italy']
+2022-11-12 12:26:02,643.643 root - WARNING - DRAW 7 --> 'Real Madrid' ['Spain'] VS 'Liverpool' ['English']
+2022-11-12 12:26:04,657.657 root - WARNING - DRAW 8 --> 'Benefica' ['Portugal'] VS 'Borussia Dortmund' ['Germany']
