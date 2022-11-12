@@ -1,0 +1,24 @@
+{
+  "Pot1":
+  {
+    "Napoli" : "Italy",
+    "Porto" : "Portugal",
+    "Bayern Munich" : "Germany",
+    "Tottenham Hotspurs" : "English",
+    "Chelsea" : "English",
+    "Manchester City" : "English",
+    "Real Madrid" : "Spain",
+    "Benefica" : "Portugal"
+  },
+  "Pot2":
+  {
+    "Liverpool": "English",
+    "Club Brugge" : "Netherland",
+    "Inter Milan" : "Italy",
+    "Eintracht Frankfurt" : "Germany",
+    "AC Milan" : "Italy",
+    "RB Leipzig" : "Germany",
+    "Borussia Dortmund" : "Germany",
+    "Paris Saint Germain" : "France"
+  }
+}
