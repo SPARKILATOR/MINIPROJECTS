@@ -1,0 +1,9 @@
+Created one Guess Game
+        
+        Rules : 
+        
+        "Each game consist of 5 guess, you have to guess a number between 1 and 5. \
+              At the same time computer will also guess a number if your guess and computer guess is same then you win \
+              and each correct guess will give you 1 point and there is no negative point for wrong guess"
+        "For example if in Game 1, you guessed 3 out of 5 numbers right than your score will become 60%"
+        "Finally one bar graph will be saved in the local, So as to know how you performed..."
