@@ -1,0 +1,16 @@
+{
+    "user_data" : [
+        {
+            "username" : "guest1",
+            "password" : "guest1"
+        },
+        {
+            "username" : "guest2",
+            "password" : "guest2"
+        },
+        {
+            "username" : "guest3",
+            "password" : "guest3"
+        }
+    ] 
+}
